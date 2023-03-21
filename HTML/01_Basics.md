@@ -31,7 +31,7 @@ HTML : Hyper Text Markup Language
     <sup>    - Superscript text
 ---
 
-    <abbr>	      -  Defines an abbreviation or acronym
+    <abbr>	      -  Defines an abbreviation 
     <address>     -  Defines contact information 
     <bdo>	      -  Defines the text direction
     <blockquote>  -  Defines a section that is quoted 
@@ -47,7 +47,7 @@ HTML : Hyper Text Markup Language
 
 ## LINKS
 
-    <a href="url" taget="" alt=""> HYPERLINK </a>
+    <a href="url" target="" alt=""> HYPERLINK </a>
 
 Hyper link can be text image or anything
 

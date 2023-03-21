@@ -82,3 +82,22 @@ The HTML id attribute is used to specify a unique id for an HTML element.
 
 You cannot have more than one element with the same id in an HTML document.
 
+    <head>
+     <style>
+        #myheader {color:red;}
+     </style>
+    </head>
+    
+    <body>
+    <h1 id="myheader">My Home Page</h1>
+    </body>
+
+---
+
+# IFRAMES
+
+It is used to display a web page within a web page
+
+    <iframe src="url" height="200" width="300" title="description"></iframe>
+    
+It is a good practice to always include a title attribute for the iframe
