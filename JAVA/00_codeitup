@@ -1,0 +1,57 @@
+java was developed by james gasoling
+
+c -> c++ -> java
+
+java : pure oops
+
+java is alive even after 30 years
+
+usecase
+desktop app
+mobile app
+web app
+embedded system
+
+--------------- 1 ---------------------
+
+java installation
+
+--------------- 2 ---------------------
+
+java features
+
+simple
+oops
+robust : less prone to errors
+secure
+multithreading : multiple tasks simultaneously
+Architecture neutral : platform independent
+java -> compile -> byte code + jdk (this byte code can run on any machine)
+portable
+
+---------------- 3 ---------------
+
+c++ vs java
+
+cpp : 
+platform dependent
+supports goto, operator overloading, pointer, multiple inheritence
+it uses a compiler
+it supports call by value and call by reference
+memory management is done using pointer
+runtime error detection by programmer
+libraries low lvl functions
+procedural + oops
+has ::, structure and union
+it has new and delete keywrd for object management
+
+java : 
+platform independent
+doesn't supports goto, operator overloading, pointer, multiple inheritence
+it uses a compiler and interpreter
+it supports call by value
+memory management is done by system
+
+------------------4---------------------
+
+  
