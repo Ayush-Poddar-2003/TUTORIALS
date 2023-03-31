@@ -15,6 +15,7 @@ java virtual machine executes programs on different machines
 hence machine independnt
 
 ---
+4
 
 anatomy
 
@@ -52,3 +53,7 @@ arithemetic operators + - / *
 
 installation jdk 13.0.1
  
+---
+9.
+
+comments
