@@ -56,8 +56,8 @@ memory management is done by system
 
 JVM : 
 Java virtual machine provides runtime environment to execute java byte code
-doesn't understand java code directly,
-hence we need to compile .java files into .class files containg bytecode understandable by java
+JVM doesn't understand java code directly,
+hence we need to compile .java files into .class files containg bytecode understandable by jvm
 
 JRE : 
 Java runtime environment provides the libraries used by JVM and other components
@@ -103,8 +103,66 @@ String ensures parameters ; can be ;String str[] or String[] str
 save java file to c\programfiles\java\bin
 name same as class name
 the open cmd go to c\programfiles\java\bin
-write javac filename to compile( .java -> .class )
-to intrepret output write java filename
+write : javac file_name.java to compile( .java -> .class )
+to intrepret output write : java file_name
 
 --------------------11-------------------
 
+the above process is chaos
+to avoid we do set path
+
+set environment variable 
+click on path and edit
+new and paste bin path
+
+after which we can compile and save anywhere
+
+---------------------12-----------------------
+
+println to move cursor on next line
+to concatenae sring and variable we use + sign
+
+--------------------13------------------------
+
+taking input
+we can use Scanner or BufferedReader class
+
+io package contains -> BufferedReader which contains -> readLine() to take input
+
+    import java.io.*;
+    class add{
+        public static void main(String[] args)throws IOException{
+            int a,b,c;
+            BufferedReader br = new BufferedReader(new InputSreamReader(System.in));
+            System.out.print("Enter First Number : ");
+            a = Integer.parseInt(br.readLine());
+            System.out.print("Enter Second Number : ");
+            b = Integer.parseInt(br.readLine());
+            c=a+b;
+            System.out.println("Sum Of a and b is :"+c )
+        }
+    }
+ 
+similarly we can use 
+    Float.parseFloat(obj.readline());
+
+------------------14-------------------------
+
+using scanner class
+
+util package contains -> Scanner which contains -> next(),nextInt(),nextFloat() to take input
+
+
+    import java.util.Scanner;
+    class add{
+        public static void main(String[] args){
+            int a,b,c;
+            Scanner obj = new Scanner(System.in);
+            System.out.print("Enter First Number : ");
+            a = Integer.parseInt(obj.nextInt());
+            System.out.print("Enter Second Number : ");
+            b = Integer.parseInt(obj.nextInt());
+            c=a+b;
+            System.out.println("Sum Of a and b is :"+c )
+        }
+    }
