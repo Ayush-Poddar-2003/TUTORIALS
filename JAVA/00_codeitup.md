@@ -166,3 +166,7 @@ util package contains -> Scanner which contains -> next(),nextInt(),nextFloat() 
             System.out.println("Sum Of a and b is :"+c )
         }
     }
+
+--------------------15-----------------
+
+
