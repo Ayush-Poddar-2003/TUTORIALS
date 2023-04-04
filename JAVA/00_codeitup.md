@@ -169,4 +169,43 @@ util package contains -> Scanner which contains -> next(),nextInt(),nextFloat() 
 
 --------------------15-----------------
 
+    import java.util.Scanner;
+    class demons{
+        public static void main(String args[]){
+            int len,br,area;
 
+            Scanner sc = new Scanner(System.in)
+
+            System.out.println("Enter length : ");
+            len = sc.nextInt();
+
+            System.out.println("Enter breadth : ");
+            br = sc.nextInt();
+
+            area = len*br;
+
+            System.out.println("Area of rectangle is : " + area);
+        }
+    }
+
+-----------------16--------------------------
+
+if else
+
+they control the flow of execution hence called flow control
+
+selection : if , switch
+looping : while do-while for
+
+-------------------17---------------
+
+greater number program
+------------------18--------------
+
+odd even
+
+-------------19---------------
+
+calculator
+
+---------------20-------------
