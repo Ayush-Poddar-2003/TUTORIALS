@@ -96,13 +96,14 @@ AND OR NOT
     }
 
 static help to call main function without any object
-String ensures parameters ; can be ;String str[] or String[] str
+String ensures parameters ; 
+can be String str[] or String[] str
 
 -------------------10------------------
 
 save java file to c\programfiles\java\bin
 name same as class name
-the open cmd go to c\programfiles\java\bin
+then open cmd go to c\programfiles\java\bin
 write : javac file_name.java to compile( .java -> .class )
 to intrepret output write : java file_name
 
