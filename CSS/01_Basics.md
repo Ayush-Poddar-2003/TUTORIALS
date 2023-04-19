@@ -56,7 +56,9 @@ Inline > External or internal style sheets (last read)<br><br>
 
 
 
-**Note:** Do not add a space b/w the value and the unit eg 20px <br><br>
+**Note:** Do not add a space b/w the value and the unit ,eg 20px <br><br>
+
+---
 
 ## 1. The id Selector
 
@@ -106,16 +108,14 @@ The grouping selector selects all the HTML elements with the same style definiti
 
 ---
 
-## EXTRA KNOWLEDGE 
+## <div align = "center">EXTRA KNOWLEDGE
 
-COLORHUNT WEBSITE 
-for matching pair of colors
+<br><br>
+COLORHUNT WEBSITE : for matching pair of colors
 
 1 px = 1/96th of inch = 0.26mm
 
-1 pt = 1/72nd of inch = 0.35mm
-
-ms word uses point for size
+1 pt = 1/72nd of inch = 0.35mm ,(ms word uses point for size)
 
 1 em = relative size if parent increases it also increases
 
