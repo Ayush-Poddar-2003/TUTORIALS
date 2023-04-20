@@ -3,8 +3,9 @@
 
 ## border-style
 
-- To use any border styling **border-style** property is used prior
-- Atrributes : 
+To use any border styling **border-style** property is used prior
+
+Atrributes : 
 
   - dotted 
   - dashed
@@ -12,7 +13,9 @@
   - double 
   - none 
   - hidden
-<!-- these are further 3d borders -->
+
+These are further 3d borders -
+
   - groove
   - ridge
   - inset 
@@ -49,15 +52,17 @@ We can use multiple atrributes too !!
       }
 
 ---
+## <div align="center">SHORTHAND PROPERTY
 
-
-## SHORTHAND PROPERTY
+<br>
 
 - The **border** property is a shorthand property for the following individual border properties:
+    
+    border-style (compulsion)
+      
+    border-width
 
-      border-style (compulsion)
-      border-width
-      border-color
+    border-color
 
 eg
 
@@ -66,7 +71,9 @@ eg
       }
 
 ---
-## Rounded Borders
+## border radius
+
+<br>
 
 - The border-radius property is used to add rounded borders to an element:
 
