@@ -2,7 +2,7 @@
 - CSS stands for Cascading Style Sheets
 - Cascade : waterfall
 - Stylesheets let us design web pages
-- Some are : Sass,less etc
+- Some atylesheets are : Sass,less etc
 
 Earlier we had limited designing stuff using html,
 later w3consortium introduced html 3.2 with tags such as < font >, < center > attributes such as "face size color"
