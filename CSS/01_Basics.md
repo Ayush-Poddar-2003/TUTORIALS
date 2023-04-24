@@ -1,15 +1,17 @@
 # What is CSS?
-- CSS stands for Cascading Style Sheets
-- Cascade : waterfall
-- Stylesheets let us design web pages
-- Some atylesheets are : Sass,less etc
+CSS : Cascading Style Sheets
+
+Cascade : waterfall
+, Stylesheets let us design web pages
+
+Some more stylesheets are : SASS ,LESS etc
 
 Earlier we had limited designing stuff using html,
-later w3consortium introduced html 3.2 with tags such as < font >, < center > attributes such as "face size color"
+later w3consortium introduced html 3.2 with tags such as < font >, < center > attributes such as "face, size, color" etc.
 
-After css we no longer use these
+After CSS we no longer use these
  
-Hakom won lee - Father of css 
+**Hakom won lee** - Father of css 
 
 ---
 There are three ways of inserting a style sheet:
@@ -120,3 +122,10 @@ COLORHUNT WEBSITE : for matching pair of colors
 1 em = relative size if parent increases it also increases
 
 1 rem = relative size if root increases it also increases parent doesnot affect it
+
+
+textalign
+font size
+font weigth
+color
+font family
