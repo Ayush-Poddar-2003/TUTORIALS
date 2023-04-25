@@ -7,13 +7,13 @@ A block-level element always starts on a new line and takes up the full width av
 The <div> element is a block-level element.
 Examples of block-level elements:
 
-<div>
-<h1> - <h6>
-<p>
-<form>
-<header>
-<footer>
-<section>
+    <div>
+    <h1> - <h6>
+    <p>
+    <form>
+    <header>
+    <footer>
+    <section>
 
 
 Inline Elements
