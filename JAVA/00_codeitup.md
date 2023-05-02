@@ -57,7 +57,7 @@ memory management is done by system
 JVM : 
 Java virtual machine provides runtime environment to execute java byte code
 JVM doesn't understand java code directly,
-hence we need to compile .java files into .class files containg bytecode understandable by jvm
+hence we need to compile .java files --> .class files containg bytecode understandable by jvm
 
 JRE : 
 Java runtime environment provides the libraries used by JVM and other components
@@ -151,18 +151,18 @@ similarly we can use
 
 using scanner class
 
-util package contains -> Scanner which contains -> next(),nextInt(),nextFloat() to take input
+util package contains -> Scanner Class which contains -> next(),nextInt(),nextFloat() to take input
 
 
     import java.util.Scanner;
     class add{
         public static void main(String[] args){
             int a,b,c;
-            Scanner obj = new Scanner(System.in);
+            Scanner obj = new Scanner(System.in);   // scanner class ka ek obj naya bna parameter ke saath
             System.out.print("Enter First Number : ");
-            a = Integer.parseInt(obj.nextInt());
+            a=sc.nextInt();
             System.out.print("Enter Second Number : ");
-            b = Integer.parseInt(obj.nextInt());
+            b=sc.nextInt();
             c=a+b;
             System.out.println("Sum Of a and b is :"+c )
         }
@@ -217,12 +217,67 @@ calculator
 
 ------------------45-----------------
 
-CLASS 
+CLASS and object
 
+    imoport java.util.Scanner
+    Class add{
+        int a, b;
+        void getdata(){
+            Scanner sc= new Scanner(System.in);
+            System.out.println("Enter first number");
+            a= sc nextInt();
+            System.out.println("Enter second number");
+            b= sc nextInt();
+        }
+        void showdata(){
+            System.out.println("Output :"+ (a+b))
+        }
+    }
 
-
-
-
+    Class demo{
+        public satic void main(String args[]){
+            add aa = new add(); //use aa for main objects
+            aa.getdata();
+            aa.putdata();
+        }
+    }
 
 ------------------52-----------------
 
+object with argument and return
+
+    import java.util.Scanner;
+    Class reverse{
+        int n;
+        void getdata(int i){
+           n = i;
+        }
+        void showdata(){
+            int rev=0;
+            while(n>0){
+                rev = (rev*10)+ n%10;
+                n = n/10;
+            }
+            return n;
+        }
+    }
+
+    Class demo{
+        public satic void main(String args[]){
+            int m,val;
+            reverse aa = new reverse();
+            Scanner sc = new scanner(System.in); 
+            System.out.println("Enter Number");
+            m = sc.nextInt();
+            aa.getdata(m);
+            val = aa.putdata();
+            }
+    }
+
+----------------------53--------------------
+
+prime number
+
+--------------------54----------------------
+
+static
