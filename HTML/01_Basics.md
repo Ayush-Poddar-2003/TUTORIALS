@@ -58,10 +58,12 @@ The target attribute can have one of the following values:
     _parent - Opens the document in the parent frame
     _top    - Opens the document in the full body of the window
 
-The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+---
+The title attribute specifies extra information about an element. The information is most often shown as a tooltip text **when the mouse moves over the element.**
     
     <a href="url" title=""> HYPERLINK </a>
 
+---
 HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page.
 
     <h2 id="C4"> Chapter 4 </h2>

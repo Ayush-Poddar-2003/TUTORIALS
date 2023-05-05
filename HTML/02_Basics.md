@@ -22,6 +22,7 @@ By default the space is set to 2 pixels.<BR><BR>
 ## COLSPAN VS ROWSPAN
 
 COLSPAN : To make a cell span over multiple columns
+
 ROWSPAN : To make a cell span over multiple rows
 
 <br>
