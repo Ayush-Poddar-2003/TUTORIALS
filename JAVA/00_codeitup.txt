@@ -280,4 +280,98 @@ prime number
 
 --------------------54----------------------
 
-static
+EXCEPTION HANDLING
+when we write program we may make some common mistakes while typing the program, a mistake may cause the program to produce unexpected results.
+Errors are the wrongs that can make a program to go wrong
+Due to errors the program may not work properly and hence the errors found and rectified
+
+errors are classified into :
+1. Compile Time errors
+    All syntax errors that can be deteced and displayed by the java compiler,
+    we rectify those errors and recompile
+
+2. Run time errors
+    even if our code compiles successfully but it gives strange results, may be due to wrong logic e.g.
+    -> divide by 0
+    -> accesing element beyonf index
+    -> wrong datatype etc
+    program terminates after exception
+
+
+---------------------105------------------
+
+Exception 
+condition that is caused by the run time error, when java interpreter encounters a runtime error it creates an exception object and throws it (informs about the error)
+
+Now if we have written the code to catch the exception and handle it properly, then our program will keep running otherwise the whole program will collapse
+
+so the process of catching the exception thrown by the error condition and then display an apropriate message for the same is called exception handling
+
+the purpose of exception handling mechanism is to provide a means to detect and report and exceptional circumstance so that appropriate action can be taken 
+
+a seprate error handling code is made that performs
+
+1. Find the exception(Hit the exception)
+2. Inform the error(Throw the error)
+3. Receive the error(Catch the exception)
+4. Take action(Handle the exception) 
+
+common java exception
+-> ArithemeticException : maths errors
+-> ArrayIndexOutOfBoundException : index error
+-> ArrayStoreException : wrong datatype
+-> FileNotFoundException : file doesn't exist
+-> IOException : i/o failures
+-> NullPointerException : referencing a null object
+-> SecurityException : not alloawed by browser
+-> OutOfMemoryException : no enough memory
+
+-----------------------106 ----------------------
+
+Exceptions in java can be :-
+
+1. CHECKED : 
+    -> handled in the code itself with help of try catch
+    -> Extended from java.lang.Exception
+    -> checked at compile time
+    e.g. IOException, SQLException
+
+2. UNCHECKED :
+    -> not essentially handled in code
+    -> JVM handles such exception
+    -> Extended from java.lang.RuntimeException
+    -> checked at runtime
+    E.G. ArithemeticException, NullPointerException
+
+syntax
+    try{
+        statement; //genrates an exception
+    }
+    catch(Exception-type e){
+        statement; // processes the exception
+    }
+
+catch is written just after try 
+
+---------------------------107------------------------
+
+COMMAND LINE ARGUMENT
+argument passed through command line while interpreting
+
+class demo{
+    public static void main(String args[]){
+        int a, b, sum;
+        a = Integer.parseInt(args[0]);
+        b = Integer.parseInt(args[1]);
+        sum = a+b;
+        System.out.println("Sum"+sum);
+    }
+}
+
+tu use this with command line :
+
+    javac abc.java
+    java abc 2 3 //this is how args are sent
+
+--------------------------108----------------------------
+
