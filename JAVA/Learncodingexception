@@ -1,0 +1,9 @@
+an unexpected unwanted abnormal situation that occured at runtime
+
+EXCEPTION HANDLING
+alternate way to handle exception
+
+try -> catch : predefined
+throw -> throws : userdefined
+finally : no matter what it will run
+

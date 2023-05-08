@@ -158,7 +158,7 @@ util package contains -> Scanner Class which contains -> next(),nextInt(),nextFl
     class add{
         public static void main(String[] args){
             int a,b,c;
-            Scanner obj = new Scanner(System.in);   // scanner class ka ek obj naya bna parameter ke saath
+            Scanner sc = new Scanner(System.in);   // scanner class ka ek obj naya bna parameter ke saath
             System.out.print("Enter First Number : ");
             a=sc.nextInt();
             System.out.print("Enter Second Number : ");
@@ -279,6 +279,72 @@ object with argument and return
 prime number
 
 --------------------54----------------------
+
+CONSTRUCTOR
+- special member function
+- use to initialise data members of a class
+- same name of class name
+- no return type
+- no need to call explicitly, automatically called as object is made
+
+TYPES
+1. DEFAULT : No argumnets
+2. PARAMETERIZED : with arguments
+
+---------------------57---------------------
+
+PARAMETERIZED CONSTRUCTOR
+
+import java.util.Scanner;
+class add{
+    int a,b;
+
+    add(){
+        a=0;b=0;
+    }
+
+    add(int x,int y){
+        a=x;
+        b=y;
+    }
+
+    void input(){
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+    }
+
+    public static void main(String args[]){
+        add aa = new add(); //default called
+        add bb = new add(5,9); //parameterized called
+    }
+}
+
+
+Constructor overloading : no. and type of parameter
+
+---------------------58---------------------
+
+INHERITENCE 
+always better to use pre existing resource rather than writing complete again
+- reusability
+- java doesn't support multiple inheritence
+
+TYPES:
+1. SINGLE : 
+
+---------------------59---------------------
+
+
+
+
+
+
+
+
+
+
+
 
 EXCEPTION HANDLING
 when we write program we may make some common mistakes while typing the program, a mistake may cause the program to produce unexpected results.
