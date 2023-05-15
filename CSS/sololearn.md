@@ -62,3 +62,71 @@ The text-align property is used to control how text is aligned within its contai
 
 The supported values are: left, right, center, justify.
 
+---
+
+The Box Model 
+ 
+
+HTML elements appear as boxes. 
+
+The box model defines how the different parts of the box -  margin, border, padding, and content, work together to create the box.
+
+Here are the parts of the box:
+
+The content box is the area where the content is displayed.
+
+The padding box is the white space around the content.
+
+The border box comes after the padding.
+
+The margin box is the last one and defines the space between this box and other elements.
+
+---
+
+The Standard Box Model 
+ 
+
+In the standard box model, the height and width attributes define the size of the content box.
+
+Any padding and border is then added to that width and height to get the total size of the box.
+
+For example, the total width of the box with paddings will be the sum of width plus padding left and padding right.
+
+The margin is not counted towards the actual size of the box, it is the space outside the box.
+
+---
+
+Alternative Box Model 
+ 
+
+It can be inconvenient to calculate the actual size of the box, because of the padding and border widths being added to it.
+
+For this reason, CSS provides an alternative box model where the given width is taken by the box and includes the padding and border.
+
+The model is turned on using box-sizing: border-box:
+
+The background-position property sets the position in which the background image appears. 
+
+It uses a coordinate system in which the top-left corner of the box is at position (0,0).
+
+As its value, it can take both pixel/percentage units and keywords (top, left, right, bottom, center).
+
+The background-size property allows you to define how the image should fit inside the box.
+
+It has two possible values:
+
+cover: The image will completely cover the box, while maintaining its aspect ratio. 
+
+contain: The image will fit inside the box completely.
+
+---
+
+By default, unordered list items are marked with round bullets, while ordered lists are numbered.
+
+The list-style-type property allows you to change the markers to circle, square, decimal, disc, lower-alpha, lower-roman, etc.
+
+The list-style property is a shorthand for setting list-style-type, list-style-image and list-style-position, all in one declaration:
+
+ul {
+ list-style: square outside none;
+}
