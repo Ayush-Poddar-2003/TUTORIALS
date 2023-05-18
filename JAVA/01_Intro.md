@@ -1,39 +1,11 @@
 # What is Java?
-
 - High level, robust, object-oriented and secure programming language.
 - James Gosling is known as the father of Java. 
 - Developed by Sun Microsystems (which is now Oracle) in the year 1995. 
-- Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
-<br><br>
+- Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java
 
 
-**Platform:**
-Any hardware/software environment in which a program runs. 
-Since Java has a runtime environment (JRE) and API, it is called a platform.
-<br><br>
-
----
-## Applications
-There are mainly 4 types of applications that can be created using Java programming:
-
-1) Standalone Application
-: Desktop applications or window-based applications. 
-
-2) Web Application
-
-3) Enterprise Application
-: An application such as banking applications, etc. 
-
-4) Mobile Application
-
-<br>
-
----
-
-## Important features -
-
-<br>
-
+# Important features -
 - Simple, Portable
 - Object-Oriented
 - Platform independent
@@ -45,17 +17,12 @@ There are mainly 4 types of applications that can be created using Java programm
 - Multithreaded
 - Distributed
 - Dynamic
-<br><br>
 
----
 
 # CPP VS JAVA
-
-
 - Java is platform-independent.
 - Java doesn't support the goto statement.
-- Java doesn't support multiple inheritance through class. It can be achieved by using interfaces in java.
-- Java doesn't support operator overloading.
+- Java doesn't support multiple inheritance through class. 
 - Java supports call by value only. There is no call by reference in java.
 - Java doesn't support structures and unions.
 
