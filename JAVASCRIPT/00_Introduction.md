@@ -1,35 +1,17 @@
-# The script Tag
+--------------------74---------------------
+LINKS
+--------------------75---------------------
+JAVA SCRIPT HISTORY :-
 
-In HTML, JavaScript code is inserted between < script > and < /script > tags.
+Netscape Navigator, the browser that dominated the 90s.
+Marc Andreessen who was one of the principle makers of the Netscape Navigator.
+And at one point Netscape Navigator held over 80 percent of the market share in terms of browser usage.
 
-Old JavaScript examples may use a type attribute: 
+So in order to do make it interactive that does't need servers in b/w by creating a small scripting language.
+The requirements were that this language had to be simple and had to be really easy so that even non-developers and non-programmers could use it to add functionality to web sites.
+So they contracted Brendan Eich, to create that programming language.
+Brendan was able to create Javascript in 10 days.
 
-    <script type="text/javascript">
-
-
-
-
-
-    
-
-The type attribute is not required. JavaScript is the default scripting language in HTML.
-
-- You can place any number of scripts in an HTML document.
-
-- Scripts can be placed in the body, or in the head section of an HTML page, or in both.
-
-- Placing scripts at the bottom of the body element improves the display speed, because script interpretation slows down the display.
-
-- Scripts can also be placed in external files:
-
-- JavaScript files have the file extension .js.
-
-- To use an external script, put the name of the script file in the src (source) attribute of a script tag,
-To add several script files to one page  - use several script tags:
-
-    < script src="myScript1.js"></script> 
-
-    < script src="myScript2.js"></script>
-
-HJ
+Different versions of Javascript not referred to as JS5 or JS6 but as ES6 or ES7, and the ES comes of course from ECMAscript.
+--------------------76----------------------
 
