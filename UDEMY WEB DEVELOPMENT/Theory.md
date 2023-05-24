@@ -242,11 +242,6 @@ we can use rem but it sill be not fully responsive
 
 shorthand property
 
-<style>
-body{
-    background-color:"black";
-}
-</style>
     .container{
         display:grid;
         grid-template-rows: 100px 200px / 400px 800px ; 
