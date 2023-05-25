@@ -1,24 +1,31 @@
-Synonyms:
+# TEMPLATE LITERALS
 
-Template Literals
-Template Strings
-String Templates
-Back-Tics Syntax
+## Synonyms:
 
-Template Literals use back-ticks (``) rather than the quotes ("") to define a string:
+- Template Literals
+- Template Strings
+- String Templates
+- Back-Tics Syntax
+
+<BR>
+
+---
+## SYNTAX
+
+Template Literals use back-ticks **``** rather than the quotes **""** to define a string:
 
     let text = `Hello World!`;
 
 Template literals allows multiline strings:
 
     let text =
-`The quick
-brown fox
-jumps over
-the lazy dog`;
+    `The quick
+    brown fox
+    jumps over
+    the lazy dog`;
 
 
-Template literals provide an easy way to concstenate(interpolate) variables and expressions into strings.
+Template literals provide an easy way to concatenate(interpolate) variables and expressions into strings.
 
     let firstName = "John";
     let lastName = "Doe";
