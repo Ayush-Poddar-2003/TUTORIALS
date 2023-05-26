@@ -1,4 +1,6 @@
 # What is CSS?
+**Hakom won lee** - Father of css 
+
 CSS : Cascading Style Sheets
 
 Cascade : waterfall
@@ -11,7 +13,6 @@ later w3consortium introduced html 3.2 with tags such as < font >, < center > at
 
 After CSS we no longer use these
  
-**Hakom won lee** - Father of css 
 
 ---
 There are three ways of inserting a style sheet:
@@ -46,7 +47,9 @@ Inline > External or internal style sheets (last read)<br><br>
 
 ## COMMENTS
 
-<br>/* */ are used<br><br>
+    /*comment*/
+<br>
+
 
 ---
 ## SYNTAX
@@ -58,55 +61,7 @@ Inline > External or internal style sheets (last read)<br><br>
 
 
 
-**Note:** Do not add a space b/w the value and the unit ,eg 20px <br><br>
-
----
-
-## 1. The id Selector
-
-To select an element with a specific id, write a hash (#) character, followed by the id of the element.
-
-    #id {
-        property : value;
-    }
-
-**Note**: An id name cannot start with a number!
-<br><br>
-
----
-
-## 2. The class Selector
-To select elements with a specific class, write a period (.) character, followed by the class name.
-
-    .class {
-        property : value;
-    }
-
-**Note**: A class name cannot start with a number!
-<br><br>
-
----
-## 3. The Universal Selector
-The universal selector (*) selects all HTML elements on the page.
-
-    * {
-        property : value;
-    }
-
----
-## 4. The Grouping Selector
-The grouping selector selects all the HTML elements with the same style definitions.
-
-    h1, h2, p {
-        property: value;
-    }
----
-
-## 5. The Attribute selector
-
-    tag[attribute="value"]{
-        color:red
-    }
+**Note:** Do not add a space b/w the value and the unit 20px <br><br>
 
 ---
 
