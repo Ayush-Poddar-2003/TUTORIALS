@@ -1,9 +1,9 @@
 # ARRAY
 An array is a special variable, which can hold more than one value:
 
-Syntax:
+### Syntax:
 
-const array_name = [item1, item2, ...];      
+const array_name = [ item1, item2, ... ];      
 
     const cars = [
         "Saab",
@@ -24,45 +24,55 @@ const array_name = [item1, item2, ...];
 
 ---
 
-# ARRAY VS OBJECTS
+## ARRAY VS OBJECTS
 
 Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
 
 Arrays use numbered indexes and objects use named indexes.
 
 
-Arrays use numbers to access its "elements". In this example, person[0] returns John:
-const person = ["John", "Doe", 46];
+    
+    const person = ["John", "Doe", 46];
+    person[0] returns John:
 
-Objects use names to access its "members". In this example, person.firstName returns John:
-const person = {firstName:"John", lastName:"Doe", age:46};
+Objects use names to access its "members". In this example, 
+
+    const person = {fName:"John", lName:"Doe", age:46};
+    person.fName returns John:
+
+<br>
 
 ---
 
-Adding Array Elements
-The easiest way to add a new element to an array is using the push() method:
+## Adding Array Elements
 
-Example
-const fruits = ["Banana", "Orange", "Apple"];
-fruits.push("Lemon");  // Adds a new element (Lemon) to fruits
+using **push()** method:
 
-New element can also be added to an array using the length property:
 
-Example
-const fruits = ["Banana", "Orange", "Apple"];
-fruits[fruits.length] = "Lemon";  // Adds "Lemon" to fruits
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits.push("Lemon"); 
+
+using **length** property:
+
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits[fruits.length] = "Lemon";  
 
 ---
 
 Adding elements with high indexes can create undefined "holes" in an array:
 
-Example
-const fruits = ["Banana", "Orange", "Apple"];
-fruits[6] = "Lemon";  // Creates undefined "holes" in fruits
+
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits[6] = "Lemon";  
 
 ---
+NOTE :
 
-const points = [40];
-// is not the same as:
-const points = new Array(40);
-// Create an array with 40 undefined elements:
+    const points = [40];
+    const points = new Array(40);
+    // Are not same
+
+if we use new keyword and pass single value it will create an array with that number size
+
+    const points = new Array(40);
+    // Create an array with 40 undefined elements:
