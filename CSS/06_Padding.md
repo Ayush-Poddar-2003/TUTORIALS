@@ -10,7 +10,7 @@ Space inside border
 <br>
 
 ---
-## Padding and Element Width
+## BORDER-BOX
 
 
     div {

@@ -3,41 +3,31 @@ Always starts on a new line and takes up the full width.
 
 Examples of block-level elements:
 
-    <div>
-    <h1> - <h6>
-    <p>
-    <form>
-    <header>
-    <footer>
-    <section>
+    <div>, <h1> - <h6>, <p>, <form>, <header>, <footer>, <section>
 
 # Inline Elements
 Does not start on a new line and only takes up as much width as necessary.
 
 Examples of inline elements:
 
-    <span>
-    <a>
-    <img>
+    <span>, <a>, <img>,
 <br>
 
 ---
-### Override The Default Display Value
+### To change The Default Display Value
 
-    span {
+    ABC {
         display: block;
+        // or
+        display: inline;
     }
 
 ---
-### Hide an Element
-used with js to hide without deleting or adding
+### To Hide an Element
+Generally used with js to hide without deleting or adding
 
-    h1.hidden {
+    h1 {
         display: none;
-    }
-    
-    //or
-
-    h1.hidden {
+        //or
         visibility: hidden;
     }

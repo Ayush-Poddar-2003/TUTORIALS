@@ -5,8 +5,10 @@ The opacity property specifies the opacity/transparency of an element. It can ta
 
     div {
           background-color: green;
-          opacity: 0.3;
+          opacity: 0.5;
     }
+
+<div style ="background-color: green; opacity: 0.5;">hii</div>
 
 <br>
 
@@ -27,15 +29,17 @@ to insert background image use
 
 By default, the background-image property repeats an image both horizontally and vertically.
 
-To repeat vertically, set background-repeat: repeat-y;
+To repeat vertically, background-repeat: repeat-y;
 
-To repeat  horizontally, set background-repeat: repeat-x;
+To repeat  horizontally, background-repeat: repeat-x;
 
-for no repeat, set background-repeat: no-repeat
+for no repeat, background-repeat: no-repeat
 
     body {
         background-image: url("paper.gif");
         background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
     }
 
 <br>
@@ -45,8 +49,8 @@ The background-attachment property specifies whether the background image should
 
     body {
         background-image: url("img_tree.png");
-        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-attachment: scroll;
     }
 
 ---

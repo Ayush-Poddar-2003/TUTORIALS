@@ -40,7 +40,7 @@ Jitna container ka margin h utna hi uske andr ke alement ka w.r.t. the container
 
 <div style="border: 1px solid red;margin-left: 100px;">
 
-<p class="ex1" style = "margin-left: inherit;">this has margin too</p>
+<p class="ex1" style = "margin-left: inherit;">this text margin is same as container due to inherit</p>
 </div>
 <br>
 
