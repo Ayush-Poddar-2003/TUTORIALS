@@ -63,7 +63,27 @@ solution of above :
 <br>
 
 query selector eg
+<br>
+<br>
+<br>
 
 ---
-## LECTURE 120
+# <div align = "center">SECTION 18</div>
+
+## LECTURE 135
+Overview of drumkit project
+<br><br>
+
+---
+## LECTURE 136
+Project links
+
+
+<br>
+
+---
+## LECTURE 137
+Project links
+
+---
 <br>
