@@ -1,7 +1,7 @@
 # INTRO
 The jQuery library is a single JavaScript file, and you reference it with the HTML < script > tag
 
-There are several ways to import jQuery on your web site.
+Several ways to import jQuery on your web site.
 - Download the jQuery library from jQuery.com
 - Include jQuery from a CDN, like Google
 ---
@@ -11,19 +11,20 @@ There are several ways to import jQuery on your web site.
     $(selector).action()
 
 - A $ sign to define/access jQuery
-- selector find HTML elements
+- selector find HTML elements eg
+https://www.w3schools.com/jquery/trysel.asp
 - action() to be performed on the element(s)
 
 Examples:
 
-    $("p").hide() - hides all <p> elements.
-    $("#test").hide() - hides the element with id="test".
+    $("p").hide() //hides all <p> elements.
+    $("#test").hide() //hides one with id="test".
 
 ---
 
-NOTE : You should always link the library before linking js file to ensure complete importing of contents of jQuery
+NOTE : You should always link the library **before** javascript linking to ensure complete importing of contents of jQuery
 
-This can be done either linking both just before body element 
+This can be done either linking both just before body close element 
 
 OR
 
@@ -41,3 +42,11 @@ $(document).ready(function(){
 })
 // if linked in the head section
 ```
+---
+
+NOW THE QUESTION IS - WHAT'S INSIDE CDN LINK ?? 
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"> 
+    </script>
+
+If you head over this link than you will find that it consists of js code (minimized version) that excludes all the spaces and comments
