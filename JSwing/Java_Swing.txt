@@ -1,0 +1,26 @@
+Java swing api is a part of oracles java foundation classes that is used to create window based apps and gui applications
+ 
+WHAT IS JFC ?
+- the oracles java foundation classes are a set of gui components which simplify the development of desktop applications
+- java swing is an enhanced version of awt 
+- java swing is built on the top of awt and entirely written in java
+- swing api is a set of entensible gui components to ease the developers life to create java based front end/gui replacement 
+
+FEATURES
+- light weight
+- rich controls
+- highly customizable
+- runtime changes(pluggable look and feel)
+
+javax.swing package provides classes for java swing api such as jbutton, jtextfield, jtextarea etc
+
+---
+
+ADDING JFRAME FORM
+- when we add a Jframe form then, a class will be associated with the form
+- javax.swing.Jframe class is a type of container which inherits the java.awt.Frame class
+- JFrame works like the main window where components like labels, buttons, textfields are added to create a GUI
+
+
+
+
