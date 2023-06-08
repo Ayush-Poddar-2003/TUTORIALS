@@ -4,12 +4,10 @@
 
 ---
 # VARIABLES
-
 JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
 
 ## var
-
-- Redeclaring a variable inside a block will also redeclare  outside the block:
+- Redeclaring a variable inside a block will also redeclare outside the block:
 
         var x = 10; // Here x is 10
         

@@ -53,9 +53,9 @@ Hyper link can be text image or anything
 
 The target attribute can have one of the following values:
     
-    _self   - Default, Opens the document in the same window
-    _blank  - Opens the document in a new window or tab
-    _parent - Opens the document in the parent frame
+    _self   - Default, same window
+    _blank  - new window or tab
+    _parent - Opens in parent frame
     _top    - Opens the document in the full body of the window
 
 ---
