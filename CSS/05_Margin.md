@@ -7,9 +7,9 @@ We can specify the margin for each side :
 
         p {
             margin-top: 100px;
-            margin-bottom: 100px;
             margin-right: 150px;
             margin-left: 80px;
+            margin-bottom: 100px;
         }
 
 ### Shorthand Property
@@ -66,7 +66,7 @@ one way to center container is using margin auto property
 # Margin Collapse
 Top and bottom margins are sometimes collapsed into a single margin equal to the largest of the two margins.
 
-This does not happen on left and right margins! Only top and bottom margins!
+Only top and bottom margins!
 
     h1 {
         margin: 0 0 50px 0;

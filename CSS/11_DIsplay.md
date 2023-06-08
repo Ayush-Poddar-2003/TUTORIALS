@@ -17,7 +17,7 @@ Examples of inline elements:
 
 
 # Inline-block
-Allows to set width and height as **display:inline** doesn't.
+Allows user to set width and height as **display:inline** doesn't.
 
 Top and bottom margins/paddings are respected, but with display: inline they are not. i.e. it doesn't overlaps.
 
@@ -30,9 +30,6 @@ Does not add a line-break after the element
         display: inline-block;
     }
 
-<br><br>
-
----
 
 
 <div >So here we have a <span class="a" style = "  display: inline;

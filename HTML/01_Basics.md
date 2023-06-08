@@ -56,7 +56,7 @@ The target attribute can have one of the following values:
     _self   - Default, same window
     _blank  - new window or tab
     _parent - Opens in parent frame
-    _top    - Opens the document in the full body of the window
+    _top    - full body of the window
 
 ---
 The title attribute specifies extra information about an element. The information is most often shown as a tooltip text **when the mouse moves over the element.**
