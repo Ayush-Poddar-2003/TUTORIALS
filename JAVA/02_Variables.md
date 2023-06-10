@@ -1,30 +1,34 @@
-# VARIABLES
+# <center>VARIABLES
 
-## Declaring (Creating) Variables
 
-    Datatype variableName = value;
 
-    String name = "John";
+    int num = 69;
+
 
 ---
-## Final Keyword
+<br>
+
+### Final Keyword
 If you don't want to overwrite existing values, use the final keyword this will declare the variable as "final" or "constant", which means unchangeable and read-only
 
     final int myNum = 15;
     myNum = 20;  // will generate an error
+<br>
 
 ---
-## Display Variables
-The println( ) method is used to display variables.
+<br>
 
-    String name = "John";
-    System.out.println("Hello " + name);
+### OUTPUT
 
-NOTE : To combine both text and a variable, use the + character:
+If you add a number and a string, the result will be a string concatenation:
+
+    String x = "10";
+    int y = 20;
+    String z = x + y;  // z will be 1020 (a String)
+<br>
 
 ---
-## Identifiers Naming
-- Names can contain letters, digits, underscores, and dollar signs
+### Identifiers Naming
 - Names can also begin with $ and _ 
 
 ---
