@@ -33,7 +33,7 @@ JavaScript treats a dollar sign as a letter, identifiers containing $ are valid 
 - Block Scope (same as let)
 - It does not define a constant value. It defines a constant reference to a value.
 
-When to use JavaScript const?
+### When to use JavaScript const?
 
 Always declare a variable with const when you know that the value should not be changed.
 Use const when you declare:

@@ -1,4 +1,21 @@
-# DATATYPES
+There are different types of JavaScript operators:
+
+    Arithmetic Operators
+    Assignment Operators
+    Comparison Operators
+    String Operators
+    Logical Operators
+    Bitwise Operators
+    Ternary Operators
+    Type Operators
+
+The typeof operator returns the type of a variable or an expression:
+<br>
+<br><br>
+
+---
+
+# <center>DATATYPES
 JavaScript has 8 Datatypes
 1. String
 2. Number
@@ -11,14 +28,14 @@ JavaScript has 8 Datatypes
 <br><br>
 
 ---
-## STRING**
+## 1. STRING**
 
 ---
-## NUMBER
+## 2. NUMBER
 
-JavaScript has only one type of number. Numbers can be written with or without decimals.
+JavaScript has only one type of number, with or without decimals.
 
-Integers (numbers without a period or exponent notation) are accurate up to 15 digits.The maximum number of decimals is 17.
+Integers are accurate up to 15 digits.The maximum number of decimals is 17.
 
 
     let x = 10;
@@ -26,18 +43,18 @@ Integers (numbers without a period or exponent notation) are accurate up to 15 d
     let z = "The result is: " + x + y;
     //A common mistake is to expect this result to be 30:
 
-"If you add a string and a number, the result will be a string concatenation"
+NOTE:  "If you add a string and a number, the result will be a string concatenation"
 
-### NaN - Not a Number
+### 2.1 NaN - Not a Number
 NaN is a JavaScript reserved word indicating that a number is not a legal number.
 typeof NaN returns number:
 
-### Infinity
+### 2.2 Infinity
 Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number
 typeof Infinity returns number.
 
 ---
-## UNDEFINED
+## 5. UNDEFINED
 
     let car;    // Value & type is undefined
 
