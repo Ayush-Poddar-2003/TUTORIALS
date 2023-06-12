@@ -335,10 +335,29 @@ TYPES:
 
 ---------------------59---------------------
 
+Multithreading
+
+os can exceute multiple task simultaneously,
+this is called multitasking/multithreading
+
+a program is divided into sub and executes simultaneously
+
+in reality processor do only one thing at a time but so fast that human fools
+
+threads can be created by 
+1. run() and start()
+    - java.lang.thread
 
 
+----------------------97-------------------
 
+thrread life cycle
 
+1. newborn state
+2. runnable state
+3. running state
+4. blocked state
+5. dead state
 
 
 

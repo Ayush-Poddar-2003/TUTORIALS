@@ -5,3 +5,16 @@ netflix, nasa, apple everyone uses node js
 this helps us to use js to create backend
 
 ctrl C helps to stop execution in cmd line
+
+---
+
+npm is a library of packages all over world
+comes pre built with node js
+
+to use npm in terminal
+
+go to directory
+write npm init
+answer questions
+press enter
+
