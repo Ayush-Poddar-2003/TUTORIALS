@@ -17,6 +17,7 @@
 
 ---
 
+## SYNTAX
 
 ```java
     class Ayush{  

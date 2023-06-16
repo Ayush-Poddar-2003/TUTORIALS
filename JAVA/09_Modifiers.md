@@ -1,20 +1,23 @@
-For classes, you can use either public or default:
+## ACCESS MODIFIERS
 
-For attributes, methods and constructors, you can use
+For **classes**, you can use either **public or default**
 
-1. public: accessible for all classes	
-2. private: accessible within the declared class	
-3. default: accessible in the same package.
-4. protected: accessible in the inherited class. 
+For **attributes, methods and constructors**, you can use
 
-Non-Access Modifiers
+1. **public**: accessible for all classes	
+2. **private**: accessible within the declared class	
+3. **default**: accessible in the same package.
+4. **protected**: accessible in the inherited class. 
 
-For classes, you can use either final or abstract:
+---
+## Non-Access Modifiers
 
-For attributes and methods, you can use 
+For **classes**, you can use either **final or abstract**
 
-1. final: Attributes and methods cannot be overridden/modified
-2. static: Attributes and methods belongs to the class, rather than an object
+For **attributes and methods**, you can use 
+
+1. **final**: 
+2. **static**: 
 3. abstract**
 4. transient	Attributes and methods are skipped when serializing the object containing them
 5. synchronized	Methods can only be accessed by one thread at a time

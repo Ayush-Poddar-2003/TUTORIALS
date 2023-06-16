@@ -1,57 +1,61 @@
-class should always start with an uppercase first letter, and that the name of the java file should match the class name.
+# OOPS
 
-You can create multiple objects of one class:
+NOTE : A class should always start with an uppercase first letter, and that the name of the java file should match the class name.
 
-    public class Main {
-        int x = 5;
+- You can create multiple objects of one class
+- You can access attributes by creating an object of the class, and by using the dot syntax (.):
 
-    public static void main(String[] args) {
-        Main myObj1 = new Main();  
-        Main myObj2 = new Main();  
-        }
-    }
-
-one class has all the attributes and methods, while the other class holds the main() method code to be executed
-
-You can access attributes by creating an object of the class, and by using the dot syntax (.):
-
-    public class Main {
-        int x;
+```JAVA
+public class Alpha {
+    int x = 5;
 
     public static void main(String[] args) {
-        Main myObj = new Main();
-        myObj.x = 40;
-        System.out.println(myObj.x);
-        }
+        Alpha aa = new Main();  
+        aa.x = 9;
+        Alpha bb = new Main();  
     }
+}
+```
 
-Static vs. Public
-You will often see Java programs that have either static or public attributes and methods.
+Good Practice : One class has all the attributes and methods, while the other class holds the main() method code to be executed
 
-In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+---
 
-    public class Main {
+## <center>Static vs. Public
+
+In the example below, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+
+```java
+public class Main {
+
     // Static method
     static void myStaticMethod() {
-        System.out.println("Static methods can be called without creating objects");
+        System.out.println("Static called ");
     }
 
     // Public method
     public void myPublicMethod() {
-        System.out.println("Public methods must be called by creating objects");
+        System.out.println("Public called");
     }
 
     // Main method
     public static void main(String[] args) {
-        myStaticMethod(); // Call the static method
-        // myPublicMethod(); This would compile an error
+        myStaticMethod(); 
+        // Call the static method without object
 
-        Main myObj = new Main(); // Create an object of Main
-        myObj.myPublicMethod(); // Call the public method on the object
+        myPublicMethod(); 
+        //This would compile an error
+        Main myObj = new Main(); 
+        myObj.myPublicMethod(); 
+        // Call the public method on the object
     }
-    }
+}
+```
+---
 
-Note that the constructor name must match the class name, and it cannot have a return type (like void).
+##  CONSTRUCTOR
+
+Constructor name must match the class name, and it cannot have a return type (like void).
 
 Also note that the constructor is called when the object is created.
 
