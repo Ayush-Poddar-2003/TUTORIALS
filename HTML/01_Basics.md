@@ -11,7 +11,7 @@ HTML : Hyper Text Markup Language
 ---
 
 ## PARAGRAPH -
-    <p> : Starts on a new line, and automatically add margin
+    <p> : Starts on a new line, add margin
     <br> : line break
     <hr> : Horizontal Line
     <pre>: Preserves spaces and line breaks

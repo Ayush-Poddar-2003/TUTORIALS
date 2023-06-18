@@ -10,6 +10,7 @@ Java Supports
 - Hierarchical.
 
 ```JAVA
+// Single
 class Animal{
   void eat(){System.out.println("eating");}
 }
@@ -24,6 +25,34 @@ class Test{
     d.eat();
     d.bark();
 }}
+
+//------------------------------------
+// Multilevel
+class Animal{
+  void eat(){System.out.println("eating");}
+}
+
+class Dog extends Animal{
+  void bark(){System.out.println("barking");}
+}
+
+class Cat extends Dog{
+  void meow(){System.out.println("barking");}
+}
+
+//------------------------------------
+// Hierarchial
+class Animal{
+  void eat(){System.out.println("eating");}
+}
+
+class Dog extends Animal{
+  void bark(){System.out.println("barking");}
+}
+
+class Cat extends Animal{
+  void meow(){System.out.println("barking");}
+}
 ```
 
 ---
@@ -31,5 +60,85 @@ class Test{
 Multiple inheritance is not supported in java
 
 ## SUPER KEYWORD
-The super keyword in Java is a reference variable that
-is used to refer to immediate parent class objects.
+The super keyword in Java is a reference variable that is used to refer to parent class objects.
+
+Used when parent and child class have same name objects
+
+### 1. Use of super with Variables
+```java
+class Vehicle {
+	int maxSpeed = 120;
+}
+
+class Car extends Vehicle {
+	int maxSpeed = 180;
+	void display()
+	{
+		System.out.println("Max: "+ super.maxSpeed );
+	}
+}
+
+class Test {
+	public static void main(String[] args)	{
+		Car small = new Car();
+		small.display();
+	}
+}
+// Maximum Speed: 120
+```
+<br>
+
+### 2. Use of super with Methods
+
+```java
+class Person {
+	void message(){
+		System.out.println("This is parent class\n");
+	}
+}
+
+class Student extends Person {
+	void message(){
+		System.out.println("This is child class");
+	}
+
+	void display()	{
+		message();
+		super.message();
+	}
+}
+
+class Test {
+	public static void main(String args[]){
+		Student s = new Student();
+		s.display();
+	}
+}
+// This is child class
+// This is parent class
+```
+<br>
+
+### 3. Use of super with constructors
+```java
+class Person {
+	Person(){
+		System.out.println("parent class Constructor");
+	}
+}
+
+class Student extends Person {
+	Student(){
+		super();
+		System.out.println("child class Constructor");
+	}
+}
+
+class Test {
+	public static void main(String[] args)	{
+		Student s = new Student();
+	}
+}
+// parent class Constructor
+// child class Constructor
+```
