@@ -1,5 +1,5 @@
-## What is Java?
-- High level, object-oriented and secure programming language.
+## Introduction
+
 - **James Gosling** is the father of Java. 
 - Developed by Sun Microsystems in the year 1995. 
 - Before Java, its name was Oak.
@@ -17,36 +17,26 @@
 
 ---
 
-## SYNTAX
+## Basic Syntax
 
 ```java
-    class Ayush{  
-        public static void main ( String args[] ){  
-            System.out.println("Hello Java");  
-        }  
+class Ayush{  
+    public static void main ( String args[] ){  
+        System.out.println("Hello Java");  
     }  
+}  
 ```
-
-- class : declares a class
-- public : access modifier
-- static : No need to create an object
-- void : Return type
-- main : represents the starting point
-- String[] args or String args[] : is used for command line argument. 
-- System.out.println() is used to print statement. 
-
 Here, System is a class, out is an object of the PrintStream class, println( ) is a method of the PrintStream class.
 
-<br><br>
+<br>
 
 ---
-
 ## <center>Java Comments
 
     // Single-line comment
     /* 
-    These are multiline
-    comments
+        These are multiline
+        comments
     */
 
 ---

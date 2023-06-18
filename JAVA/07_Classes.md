@@ -9,10 +9,11 @@ NOTE : A class should always start with an uppercase first letter, and that the 
 public class Alpha {
     int x = 5;
 
-    public static void main(String[] args) {
-        Alpha aa = new Main();  
+    public static void main(String[] args){
+        Alpha aa = new Alpha();  
         aa.x = 9;
-        Alpha bb = new Main();  
+
+        Alpha bb = new Alpha();  
     }
 }
 ```
@@ -20,10 +21,14 @@ public class Alpha {
 Good Practice : One class has all the attributes and methods, while the other class holds the main() method code to be executed
 
 ---
+<br>
 
-## <center>Static vs. Public
+## <center>Static vs. Public Class
+<br>
 
-In the example below, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+**Static** : can be accessed without creating an object of the class.
+
+**Public** : can only be accessed by objects:
 
 ```java
 public class Main {
@@ -41,7 +46,7 @@ public class Main {
     // Main method
     public static void main(String[] args) {
         myStaticMethod(); 
-        // Call the static method without object
+        // Calling static method without object
 
         myPublicMethod(); 
         //This would compile an error
@@ -51,12 +56,15 @@ public class Main {
     }
 }
 ```
+<br>
+
 ---
 
-##  CONSTRUCTOR
+##  <center>CONSTRUCTOR
+<br>
 
-Constructor name must match the class name, and it cannot have a return type (like void).
+- Constructor name must match the class name
+- Don't have a return type
+- Called when the object is created.
 
-Also note that the constructor is called when the object is created.
-
-All classes have constructors by default: if you do not create a class constructor yourself, Java creates one for you. However, then you are not able to set initial values for object attributes.
+All classes have constructors by default: if you do not create a class constructor yourself, Java creates one for you.

@@ -30,29 +30,28 @@ Data types are divided into two groups:
 ## <center>TYPECASTING
 
 <br>
-In Java, there are 2 types of casting:
 
-1. Widening Casting (automatically) : converting a smaller type to a larger type size
+### 1. Automatically/Widening Casting : 
+<br>
 
-        public class Main {
-        public static void main(String[] args) {
-            int a = 9;
-            double b = a; 
-            // Automatic casting: int to double
-            System.out.println(a); //Outputs 9
-            System.out.println(b); //Outputs 9.0
-            }
-        }
+```java
+    int a = 9;
+    double b = a;  // Automatic casting: int to double
+    
+    System.out.println(a); //Outputs 9
+    System.out.println(b); //Outputs 9.0
+```
+<br>
 
-2. Narrowing Casting (manually) - converting a larger type to a smaller size type
 
-- done manually by placing the type in parentheses in front of the value:
 
-        public class Main {
-        public static void main(String[] args) {
-            double b = 9.78d;
-            int a = (int)b; //double to int
-            System.out.println(b); // Outputs 9.78
-            System.out.println(a); // Outputs 9
-            }
-        }
+### 2. Narrowing/Manually Casting :
+<br>
+
+```java
+    double b = 9.78d;
+    int a = (int)b; //double to int
+    
+    System.out.println(b); // Outputs 9.78
+    System.out.println(a); // Outputs 9
+```

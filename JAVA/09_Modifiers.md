@@ -16,9 +16,9 @@ For **classes**, you can use either **final or abstract**
 
 For **attributes and methods**, you can use 
 
-1. **final**: 
-2. **static**: 
+1. **final**
+2. **static**
 3. abstract**
-4. transient	Attributes and methods are skipped when serializing the object containing them
-5. synchronized	Methods can only be accessed by one thread at a time
-6. volatile	The value of an attribute is not cached thread-locally, and is always read from the "main memory"
+4. transient**
+5. synchronized**
+6. volatile**
