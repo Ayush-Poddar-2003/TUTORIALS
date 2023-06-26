@@ -12,7 +12,7 @@
 
 # <center>CPP VS JAVA
 - Java is platform-independent.
-- Java doesn't support the goto statement, multiple inheritance, call by reference, structures and unions.
+- Java doesn't support the goto statement, multiple inheritance, call by reference, structures, unions, virtual keyword, operator overloading
 <br><br>
 
 ---

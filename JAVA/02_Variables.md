@@ -1,31 +1,29 @@
 # <center>VARIABLES
 
+We have 3 types of variables :-
+1. Local
+2. Reference : created inside a class but outside method
+3. Static : Similar to reference variable but shares single copy/memory, No need of object to call static members
+
+```java
+class A
+{
+    int a = 10; // Reference variable
+    static int b = 7; // Static variable
+    public static void main(String args[]){
+        int c = 9; // Local variable
+        System.out.println(c);
+
+        A ref = new A();
+        System.out.println(ref.a); // reference variable need object
+
+        System.out.println(A.b); // static are accessed directly via class
+    }
+}
+```
 
 
-    int num = 69;
 
-
----
-<br>
-
-### Final Keyword
-If you don't want to overwrite existing values, use the final keyword this will declare the variable as "final" or "constant", which means unchangeable and read-only
-
-    final int myNum = 15;
-    myNum = 20;  // will generate an error
-<br>
-
----
-<br>
-
-### OUTPUT
-
-If you add a number and a string, the result will be a string concatenation:
-
-    String x = "10";
-    int y = 20;
-    String z = x + y;  // z will be 1020 (a String)
-<br>
 
 ---
 ### Identifiers Naming

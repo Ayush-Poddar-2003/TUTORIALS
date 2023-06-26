@@ -55,3 +55,7 @@ Data types are divided into two groups:
     System.out.println(b); // Outputs 9.78
     System.out.println(a); // Outputs 9
 ```
+
+---
+
+The java.lang.String class is used to create a string object
