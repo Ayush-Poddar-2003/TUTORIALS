@@ -10,6 +10,7 @@
 ## Using Thread class
 ```java
 class A extends Thread{
+    // thread 1
     public void run(){  //run() in used by default
         for(int i=0;i<5;i++)
         {
@@ -23,6 +24,7 @@ public class Demo{
         A aa = new A();
         aa.start(); //start() is used to call run()
         
+        // thread 2 of main
         for(int i=0;i<5;i++){
             System.out.println("Aditi");
         }
@@ -36,6 +38,34 @@ public class Demo{
 
 ```java
 
-class A implements Runnable
+class A implements Runnable{
+    public void run()
+    {
+        // Thread job 
+        for(int i=0;i<5;i++)
+        {
+            System.out.println("child thread");
+        }
+    }
+}
+
+class B{
+    public static void main(String args[]){
+        A aa = new A();
+      // aa.start() wont run as we dont have used thread class
+        Thread t = new thread(aa);
+        t.start();
+    }
+}
 
 ```
+
+---
+
+## THREAD LIFE CYCLE
+
+1. New state (born)
+2. Runnable state (Ready)
+3. Running state (Execution)
+4. Waiting state (BLocked)
+5. End state (Exit) 
