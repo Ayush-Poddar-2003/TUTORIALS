@@ -2,8 +2,6 @@
 - Java Database Connectivity. 
 - Part of JavaSE (Java Standard Edition).
 - An API to connect and execute the query with the database.
-- We can  access, save, update, delete and fetch data from any relational database.
-- Uses JDBC drivers to connect with the database.
 - The **java.sql** package contains classes and interfaces for JDBC API.
 <br>
 <br>
