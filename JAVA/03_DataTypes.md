@@ -22,7 +22,7 @@ Data types are divided into two groups:
 ### Others
 - **boolean** : 1 bit ; Stores true or false values
 - **char** : 2 bytes ; Stores a single character/letter or ASCII values
-- **String**: to store a sequence of characters (text)
+- **String**: to store a sequence of characters (text), The **java.lang.String** class is used to create a string object
 <BR><BR>
 
 ---
@@ -57,5 +57,3 @@ Data types are divided into two groups:
 ```
 
 ---
-
-The java.lang.String class is used to create a string object

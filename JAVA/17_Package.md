@@ -7,7 +7,7 @@ you can either import a single class (along with its methods and attributes), or
     import package.name.*;   //for whole package
 
 User Defined
-To create a package, use the package keyword:
+To create a package, make a directory then in new file use the package keyword:
 
     package mypack;
     class MyPackageClass {

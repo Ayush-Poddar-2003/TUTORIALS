@@ -34,12 +34,14 @@ y = (int)str // will give error
 // also when we take input from user we take it in text box in form of string and to perform computation we need wrapper class
 
 y = Integer.parseInt(str) //Correct
+```
+```java
+Uses :-
 
-// To create objects use
+// To create objects 
 Integer a = new Integer(5);
 
 // We can assign null to objects
-
 int a = null // INVALID
 Integer a = null // VALID
 ```

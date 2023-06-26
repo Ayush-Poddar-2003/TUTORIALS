@@ -38,14 +38,14 @@ These streams are used to write data as outputs
 - To read/write the data of 8-bits.
 - These classes are part of the java.io package.
 
-#### 1.1 InputStream
-- superclass of all the input stream classes
-- abstract class and can't be instantiated
-- various classes inherit the InputStream class and override its methods
+    #### 1.1 InputStream
+    - superclass of all the input stream classes
+    - abstract class and can't be instantiated
+    - various classes inherit the InputStream class and override its methods
 
-#### 1.2 OutputStream
-- superclass of all the output stream classes
-- an abstract class used to write 8-bit bytes to the stream
+    #### 1.2 OutputStream
+    - superclass of all the output stream classes
+    - an abstract class used to write 8-bit bytes to the stream
 <br>
 <br>
 <br>
@@ -59,13 +59,13 @@ characters.
 - They can perform operations on characters, char arrays and String
 - mainly used to read characters from the source and write them to the destination
 
-#### 2.1 Reader Class
-- Abstract class and can’t be instantiated
-- All methods of the Reader class throw an IOException
+    #### 2.1 Reader Class
+    - Abstract class and can’t be instantiated
+    - All methods of the Reader class throw an IOException
 
-#### 2.2 Writer Class
-- Abstract class and can’t be instantiated
-- All methods of the writer class throw an IOException
+    #### 2.2 Writer Class
+    - Abstract class and can’t be instantiated
+    - All methods of the writer class throw an IOException
 
 ---
 <br>

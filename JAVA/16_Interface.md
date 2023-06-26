@@ -1,11 +1,25 @@
-```java
-// Interface
+# Interface
+- An interface in Java is a blueprint of a class. 
+- It has static constants and abstract methods.
+- There can be only abstract methods not the method body.
+- It is used to achieve abstraction and multiple
+inheritances in Java
 
+---
+## How interface?
+- The Java compiler adds **public** and **abstract** Keywords before the interface method. 
+- Moreover, it adds **public**, **static** and **final** keywords before data members.
+
+
+---
+```java
+// INTERFACE CREATED
 interface Animal {
   public void animalSound();
   public void sleep(); 
 }
 
+//IMPLEMENTING INTERFACE
 class Pig implements Animal {
   public void animalSound() {
     System.out.println("The pig says: wee wee");
@@ -24,7 +38,7 @@ class Main {
 }
 ```
 
-Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can implement multiple interfaces. Note: To implement multiple interfaces, separate them with a comma
+---
 
 ```java
 interface FirstInterface {
@@ -32,15 +46,12 @@ interface FirstInterface {
 }
 
 interface SecondInterface {
-  public void myOtherMethod(); // interface method
+  public void myMethod(); // interface method
 }
 
 class DemoClass implements FirstInterface, SecondInterface {
   public void myMethod() {
     System.out.println("Some text..");
-  }
-  public void myOtherMethod() {
-    System.out.println("Some other text...");
   }
 }
 
@@ -48,7 +59,12 @@ class Main {
   public static void main(String[] args) {
     DemoClass myObj = new DemoClass();
     myObj.myMethod();
-    myObj.myOtherMethod();
   }
 }
 ```
+
+## WHY?
+Multiple inheritance is not supported through class in java, but it is possible by an interface, why?
+- Multiple inheritance is not supported in the case of class because of ambiguity.
+However, it is supported in case of an interface
+because there is no ambiguity.

@@ -59,10 +59,18 @@ class Cat extends Animal{
 
 Multiple inheritance is not supported in java
 
-## SUPER KEYWORD
+## Important Points
+- Every class is implicitly a subclass of the Object class.
+- Superclass can only be one
+<br>
+<br>
+
+---
+## <CENTER>SUPER KEYWORD
 The super keyword in Java is a reference variable that is used to refer to parent class objects.
 
 Used when parent and child class have same name objects
+
 
 ### 1. Use of super with Variables
 ```java
@@ -120,6 +128,9 @@ class Test {
 <br>
 
 ### 3. Use of super with constructors
+
+NOTE : When calling a superclass constructor, the super() statement must be the first statement in the constructor of the subclass.
+
 ```java
 class Person {
 	Person(){

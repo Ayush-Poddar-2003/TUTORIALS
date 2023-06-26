@@ -48,7 +48,7 @@ public class Main {
         myStaticMethod(); 
         // Calling static method without object
 
-        myPublicMethod(); 
+        myPublicMethod(); => ERROR
         //This would compile an error
         Main myObj = new Main(); 
         myObj.myPublicMethod(); 

@@ -38,3 +38,47 @@ be extended by a subclass.
 
 Initialization: Final variables must be initialized either at
 the time of declaration or in the constructor of the class.
+<br>
+<br>
+
+---
+
+## this keyword
+
+USES :-
+1. Refers to address
+```java
+class A {
+    void demo(){
+        System.out.println(this);
+    }
+    public static void main(String args[]){
+        A aa = new A();
+        System.out.println(aa);
+        aa.demo();
+    }
+}
+```
+
+2. To use instance variable when we have same name for both local and instance variable
+
+```java
+
+```
+
+3. To call default constructor
+
+```java
+class A{
+    A(){
+        System.out.println("Default");
+    }
+    A(int a){
+        this(); // to call default constructor
+        System.out.println(a);
+    }
+    public static void main(String args[]){
+        A aa = new A(100);
+    }
+}
+```
