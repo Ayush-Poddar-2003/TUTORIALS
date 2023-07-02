@@ -63,8 +63,32 @@ public class Main {
 ##  <center>CONSTRUCTOR
 <br>
 
+Java has only default and copy constructor
 - Constructor name must match the class name
 - Don't have a return type
 - Called when the object is created.
 
 All classes have constructors by default: if you do not create a class constructor yourself, Java creates one for you.
+
+### Java Copy Constructor
+There is no copy constructor in Java, but we can like:-
+
+    class Student{  
+        int id;  
+        String name;  
+          
+        Student(int i,String n){  
+            id = i;  
+            name = n;  
+        }  
+          
+        Student(Student s){  
+            id = s.id;  
+            name =s.name;  
+        }   
+    
+        public static void main(String args[]){  
+            Student s1 = new Student(1,"aa");  
+            Student s2 = new Student(s1);  
+        }  
+    }  

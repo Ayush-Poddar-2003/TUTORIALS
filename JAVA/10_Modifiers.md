@@ -23,30 +23,49 @@ For **attributes and methods**, you can use
 5. synchronized**
 6. volatile**
 
+<br><br>
+
 ---
 
-## Final Keyword
+## <center>Final Keyword
 
 The final keyword in java is used to restrict the user.
 
-- Final variables: When a variable is declared as final, its
+- **Final variables**: When a variable is declared as final, its
 value cannot be changed once it has been initialized. 
-- Final methods: When a method is declared as final, it
+- **Final methods:** When a method is declared as final, it
 cannot be overridden by a subclass.
-- Final classes: When a class is declared as final, it cannot
+- **Final classes:** When a class is declared as final, it cannot
 be extended by a subclass. 
 
-Initialization: Final variables must be initialized either at
-the time of declaration or in the constructor of the class.
+
+---
+
+Ques :  Is final method inherited?
+- Yes, final method is inherited but you cannot override it
+
+Ques : Can we initialize blank final variable?
+- Yes, but only in constructor
+
+        class Bike {  
+            final int speedlimit;  
+            
+        Bike() {  
+            speedlimit = 70;  
+            System.out.println(speedlimit);  
+        } 
+
+Ques : What is final parameter?
+- If you declare any parameter as final, you cannot change the value of it. 
 <br>
 <br>
 
 ---
 
-## this keyword
+## <center>this keyword
 
 USES :-
-1. Refers to address
+1. Refers to same address as of object
 ```java
 class A {
     void demo(){
@@ -62,11 +81,8 @@ class A {
 
 2. To use instance variable when we have same name for both local and instance variable
 
-```java
 
-```
-
-3. To call default constructor
+3. To call default/parametrized constructor
 
 ```java
 class A{
