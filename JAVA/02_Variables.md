@@ -10,6 +10,7 @@ class A
 {
     int a = 10; // Reference variable
     static int b = 7; // Static variable
+    
     public static void main(String args[]){
         int c = 9; // Local variable
         System.out.println(c);

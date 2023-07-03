@@ -1,10 +1,13 @@
 ## GARBAGE COLLECTION
 - In java, garbage means unreferenced objects.
-- Garbage Collection is process of reclaiming the runtime unused memory automatically OR A way to destroy the unused objects.
+- Garbage Collection is process of reclaiming the runtime unused memory automatically OR 
+- A way to destroy the unused objects.
+
+---
 
 ### How can an object be unreferenced?
 
-1 By nulling a reference:
+1 By nulling an object:
         
     Employee e = new Employee();  
     e = null;  
@@ -16,7 +19,7 @@
 3 gc( ) method
 - The gc() method is used to invoke the garbage
 collector to perform cleanup processing.
-- Found in System and Runtime classes.
+- Found in System & Runtime classes.
 - Performed by a thread called Garbage Collector(GC).
 - This thread calls the finalize() method before object is garbage collected.
 
@@ -24,12 +27,9 @@ collector to perform cleanup processing.
 
 4 finalize method()
 
-- By default every class in java has a super class called Object
-- finalize is a protected method of object super class
-- the purpose of finalize method is to release the resources that is allocated by unused object, called by garbage collection
-thread before collecting object
 - defined in java.lang.Object
-
+- finalize is a protected method of object super class
+- Purpose is to release the resources that is allocated by unused object
 ---
 
 ```JAVA

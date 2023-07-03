@@ -7,11 +7,14 @@
 1. By Extending Thread class
 2. By Implementing Runnable Interface
 
+---
+
 ## Using Thread class
 ```java
+// thread 1
 class A extends Thread{
-    // thread 1
-    public void run(){  //run() in used by default
+    public void run()  //run() in used by default
+    { 
         for(int i=0;i<5;i++)
         {
             System.out.println("Ayush");
@@ -30,18 +33,15 @@ public class Demo{
         }
     }
 }
-
-// If we want to delay execution time use sleep method with try and catch methods
 ```
 
 ## Using Runnable Interface
 
 ```java
-
+//thread
 class A implements Runnable{
     public void run()
     {
-        // Thread job 
         for(int i=0;i<5;i++)
         {
             System.out.println("child thread");
@@ -131,7 +131,7 @@ public class JavaSetPriorityExp1 extends Thread
 {    
     public void run()  
     {    
-        System.out.println("Priority of thread is: "+Thread.currentThread().getPriority());    
+        System.out.println("Priority is: "+Thread.currentThread().getPriority());    
     }    
     public static void main(String args[])  
     {    

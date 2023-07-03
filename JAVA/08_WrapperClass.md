@@ -1,4 +1,5 @@
-Wrapper classes provide a way to use primitive data types as objects as java is 99% oops
+# Wrapper classes 
+provide a way to use primitive data types as objects as java is 99% oops
 
     int -> Integer
     char -> Character
@@ -12,8 +13,8 @@ Wrapper classes provide a way to use primitive data types as objects as java is 
 ---
 
 ## Use of wrapper class
-- Change the value in Method: Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an
-object, it will change the original value.
+- Change the value : Java supports only call by value. So, if we pass a primitive value, it will not change the original value. But, if we convert the primitive value in an object, it will change the original value.
+- We can assign null to objects but not to int
 - java.util package: The java.util package provides the utility classes to deal with objects.
 - Collection Framework: Java collection framework works with objects only. All classes of the collection framework
 - Serialization: We need to convert the objects into streams to perform the serialization. If we have a primitive value, we can convert it in objects through the wrapper classes.
@@ -23,6 +24,8 @@ object, it will change the original value.
 ---
 
 ```java
+// Uses :-
+
 int y = 10;
 String str = "5";
 
@@ -30,16 +33,9 @@ y = str      // will give error
 y = (int)str // will give error
 
 // Bcoz We are putting greater thing in small container        
-
-// also when we take input from user we take it in text box in form of string and to perform computation we need wrapper class
-
+// also when we take input from user we take it in text box in form of string and to perform computation we need to convert in required DT
 y = Integer.parseInt(str) //Correct
-```
-```java
-Uses :-
 
-// To create objects 
-Integer a = new Integer(5);
 
 // We can assign null to objects
 int a = null // INVALID
@@ -47,6 +43,7 @@ Integer a = null // VALID
 ```
 <br>
 
+---
 you can initialize Integer types in Java multiple ways, including:
 - Through a constructor.
 - From the value of a String.
