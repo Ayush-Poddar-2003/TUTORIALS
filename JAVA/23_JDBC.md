@@ -23,7 +23,7 @@ Before JDBC, ODBC API was used to connect and execute the queries But was writte
 <br>
 
 2. **JDBC API** - allows execution of the SQL
-statements also It provides various interfaces and methods to establish easy connection with different databases.
+statements, It provides various interfaces & methods to establish easy connection with different databases.
 <br>
 
 3. **JDBC Drivers** - A software component that enables java application to interact with the database. 
@@ -44,7 +44,7 @@ statements also It provides various interfaces and methods to establish easy con
 source of data. 
 - The JDBC driver establishes the interaction between the
 data source and the application. 
-- When a query is sent data source, the reply of those sent queries is sent directly to the user.
+- When a query is sent data source, the reply  is sent directly to the user.
 - The source of data can be located on a different machine, and that machine is connected to the user machine following a client-server
 paradigm.
 - Machine which is sending the query is the client
@@ -145,4 +145,9 @@ public class Main {
 ---
 
 ### DriverManager class
-The DriverManager class is the component of JDBC API and also a member of the java.sql package. The DriverManager class acts as an interface between users and drivers. It keeps track of the drivers that are available and handles establishing a connection between a database and the appropriate driver. It contains all the appropriate methods to register and deregister the database driver class and to create a connection between a Java application and the database. The DriverManager class maintains a list of Driver classes that have registered themselves by calling the method DriverManager.registerDriver(). Note that before interacting with a Database, it is a mandatory process to register the driver; otherwise, an exception is thrown.
+- Component of JDBC API and a member of the java.sql package. 
+- Acts as an interface between users and drivers. 
+- It keeps track of the drivers that are available 
+- It contains all the methods to register and deregister the database driver class
+- Maintains a list of Driver classes that have registered themselves by calling the method DriverManager.registerDriver(). 
+- Note that before interacting with a Database, it is a mandatory process to register the driver; otherwise, an exception is thrown.

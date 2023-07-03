@@ -68,3 +68,24 @@ public class Demo{
     }
 }
 ```
+
+// WAP TO COPY CONTENT OF ONE FILE TO ANOTHER FILE
+
+```JAVA
+import java.io.*;
+
+class copyFile{
+    public static void main(String args[]) throws IOException {
+
+        FileInputStream r = new FileInputStream("C:\\Desktop\\ABC.text");
+        FileOutputStream w = new FileOutputStream("C:\\Desktop\\DEF.text");
+
+        int i;
+        while((i = r.read())! = -1)
+        {
+            w.write((char)i)
+        }
+    System.out.prinln("Copied");
+    }
+}
+```

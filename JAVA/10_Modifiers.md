@@ -55,8 +55,6 @@ Ques : Can we initialize blank final variable?
             System.out.println(speedlimit);  
         } 
 
-Ques : What is final parameter?
-- If you declare any parameter as final, you cannot change the value of it. 
 <br>
 <br>
 

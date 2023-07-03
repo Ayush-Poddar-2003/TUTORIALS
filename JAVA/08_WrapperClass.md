@@ -47,6 +47,17 @@ Integer a = null // VALID
 ```
 <br>
 
+you can initialize Integer types in Java multiple ways, including:
+- Through a constructor.
+- From the value of a String.
+- With the help of autoboxing.
+
+        Integer number = new Integer(10); // constructor
+        Integer dozen = Integer.valueOf("20"); // convert String to int
+        Integer century = 100; // autoboxing
+
+---
+
 ## AUTOBOXING
 
 ```java
@@ -70,18 +81,9 @@ double b = bb.doubleValue()
 
 ## Difference between int and Integer
 
-- The Integer class is an Object while an int is a primitive type.
-- The Integer is compared with .equals while the int uses two equal signs, == .
 - The Integer class is a wrapper class for the int, while the int is not a class at all.
+- The Integer is compared with .equals while the int uses two equal signs, == .
 - The Integer class allows conversion to float, double, long and short, while the int doesn’t.
-- Java int simply represents a whole number, while an Integer has additional properties and methods. 
+- int simply represents a whole number, while an Integer has additional properties and methods. 
 - The Object class is not an ancestor of the int.
 
-you can initialize Integer types in Java multiple ways, including:
-- Through a constructor.
-- From the value of a String.
-- With the help of autoboxing.
-
-        Integer number = new Integer(10); // constructor
-        Integer dozen = Integer.valueOf("20"); // convert String to int
-        Integer century = 100; // autoboxing
