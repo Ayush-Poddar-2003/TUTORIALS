@@ -1,0 +1,61 @@
+# 76
+Netscape dominated internet in early days
+later internet explorer took it and Netscape changed into firefox
+
+For all logical computations html has to depend on the servers
+as it wont be that efficient 
+a scripting language was formed so the even front end developers and non developers can use them
+
+BRENDAN EICH invented Js in 10 days
+
+Youtube Netflix can't even load without Js
+World can't be seen without Js
+
+Basically a script to make our actors "HTML" do something
+
+# 77
+You can simply write Js code in developer tools inside console section
+to execute multiple line use shift + enter
+
+inside sources section, go to Snippets and new snippet
+It will come like an IDE where you can write up your codes 
+
+# 78 DATATYPES
+String Number Boolean
+typeof() returns datatype
+
+# 79 VARIABLES
+- alert shows output with an ok button
+- promopt shows output with an input text box
+
+# 80 - 81 swapping variable
+
+# 82 Variable Naming
+
+# 83 String Concatenation
+
+# 84 String Length
+var a = ayush;
+a.length //5
+
+# 85 String Slice
+var a = ayush;
+a.slice(0,1) //"a"
+
+# 86 String Case
+var a = ayush;
+a.toUpperCase(); //"AYUSH"
+a.toLowerCase(); //"ayush"
+
+# 87 
+// ques
+var content = prompt("Write your name ");
+alert(content[0].toUpperCase() + content.slice(1,));
+
+# 88
+Basic Operators : + - * / %
+
+# 89
+Increment/Decrement
+
+# 90
