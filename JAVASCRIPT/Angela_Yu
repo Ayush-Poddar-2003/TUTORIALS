@@ -59,3 +59,18 @@ Basic Operators : + - * / %
 Increment/Decrement
 
 # 90
+function fun(){
+    console.log("Hii") //This will show the output inside the console output
+}
+
+# 91 92 93 Karel Challenge
+
+# 94 Arguments Pameters
+
+# 95 Practice Test
+
+# 96 Return Value 
+
+# 97 98 BMI Calculator
+
+# 99 Angela Tip
