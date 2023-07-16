@@ -105,4 +105,26 @@ To get desired number let's say 1 to 6
 # 105 Leap Year Logic 
 
 # 106 Arrays
+var aplpha = ["a","b","c","d"];
+var chk = prompt("What to check");
+alpha.includes(chk); //returns boolean
 
+# 107 Ques
+
+# 108
+function Abc(names){
+    var len = names.length;
+    var rand = Math.floor((Math.random() * len));
+    var per = Abc[rand];
+    console.log("hii" + per);
+}
+
+# 109 While Loops
+
+# 110 Ques
+
+# 111 For Loop
+
+# 112 113 Fibonacci Series
+
+# 114 Angela Tip
