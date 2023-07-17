@@ -128,3 +128,58 @@ function Abc(names){
 # 112 113 Fibonacci Series
 
 # 114 Angela Tip
+
+
+---
+
+# 115 DOM
+linking js in our html code
+eg
+    inline ->  <body onload = "alert('helloo');">
+    internal ->  <script> alert("Hello");</script>
+    external ->  <script src = "script.js"></script>
+
+css should be linked on top
+js at bottom coz if html doesn't exist it will crash
+
+# 116 
+Browser converts the html objects structure into tree also called DOM
+objects have values and properties
+
+document : will show tree output
+document.firstElementChild : will show first child
+document.firstElementChild.firstElementChild : will show first child of first child
+document.firstElementChild.lastElementChild : will show first child of first child
+
+further u can use that element to change using js
+
+Some basic functionalities
+h1.innerhtml => will change inner content
+h1.style.color => will change color
+
+# 117 Ques
+
+# 118 Selecting Elements
+1. document.getELementsByTagName(div) => returns an array consisting all div elements
+2. document.getELementsByClassName(Abcd) => returns an array consisting all class elements
+3. document.getELementById(Abcd) => returns an element consisting all id elements
+
+4. document.querySelector() => u can use it with tags, ids, classes etc
+5. document.querySelectorAll() => selects all elements
+
+# 119 Manipulation using selector
+Munipulation using js instead of css
+W3schools DOM style sheet
+
+document.querySelector("h1").style.color = "red";
+document.querySelector("h1").style.fontSize = "10rem";
+document.querySelector("h1").style.padding = "70%";
+document.querySelector("h1").style.backgroundColor = "yellow";
+
+# 120 ? classlist
+
+# 121 ? textcontent
+
+# 122 ? getattribute setattribute
+
+# 123 Angela Tip 
