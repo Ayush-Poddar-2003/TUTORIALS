@@ -222,3 +222,6 @@ HouseKeeper1.move();
 # 144 keypress is outdated we'll be using keydown instead
 
 # 145 Keypress Drum Kit 
+
+# 146 Call Back Function
+Function passed as a parameter
