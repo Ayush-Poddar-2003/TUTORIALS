@@ -190,5 +190,35 @@ document.querySelector("h1").style.backgroundColor = "yellow";
 
 ---
 
-# 135 DRUM KIT
+# 135 - 140 DRUM KIT
 
+# 141 Constructor
+
+function HouseKeeper(yoe,name,cr){\
+    this.yoe = yoe;
+    this.name = name;
+    this.cr = cr;
+}
+
+var Housekeeper1 = new HouseKeeper(2,"ayush",6);
+var Housekeeper2 = new HouseKeeper(1,"aditi",3);
+
+# 142 Switch
+
+# 143 Constructor Function
+
+function HouseKeeper(yoe,name,cr){\
+    this.yoe = yoe;
+    this.name = name;
+    this.cr = cr;
+    this.move = function(){
+        alert("May i move it");
+    }
+}
+
+var Housekeeper1 = new HouseKeeper(2,"ayush",6);
+HouseKeeper1.move();
+
+# 144 keypress is outdated we'll be using keydown instead
+
+# 145 Keypress Drum Kit 
