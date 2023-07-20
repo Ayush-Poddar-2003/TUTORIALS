@@ -48,7 +48,7 @@ a.toUpperCase(); //"AYUSH"
 a.toLowerCase(); //"ayush"
 
 # 87 
-// ques
+// ques to display name in sentence case
 var content = prompt("Write your name ");
 alert(content[0].toUpperCase() + content.slice(1,));
 
@@ -65,7 +65,7 @@ function fun(){
 
 # 91 92 93 Karel Challenge
 
-# 94 Arguments Pameters
+# 94 Arguments Parameters
 
 # 95 Practice Test
 
@@ -224,4 +224,4 @@ HouseKeeper1.move();
 # 145 Keypress Drum Kit 
 
 # 146 Call Back Function
-Function passed as a parameter
+Function passed as a parameter for Higher order functions
