@@ -334,3 +334,40 @@ Adding / Removing elements
    
 # SIMON GAME
 
+# 186 : GITBASH INSTALLATION
+
+# 187 
+TO access something we have either gui ie explorer and all
+or we have
+command line interface : greater control, faster
+
+mkdir -> to make folder
+-a -> all available files in a folder
+
+# 188
+hackertyper.com to look like hacker
+
+ls -> all folders
+cd -> to change directory 
+cd.. -> back to one level
+cd~ -> back to root directory
+
+cursor works with alt command
+
+ctrl a -> cursor at start
+ctrl e -> cursor at end
+ctlr u -> to erase line
+
+# 189 
+touch filename.txt -> to create a file
+start filename.txt -> to open a file
+rm filename.txt -> to remove a file
+
+pwd -> tells current folder location
+
+rm -r dirname -> to remove a directory
+
+# 190 Tip
+
+---
+
