@@ -1,0 +1,96 @@
+# <center>150 JQuery
+
+The jQuery library is a single JavaScript file, and you reference it with the HTML script tag
+
+Several ways to import jQuery on your web site.
+
+Download or Include jQuery i.e. 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+    </script>
+
+NOTE : You should always link the jQuery library before javascript to ensure complete importing
+
+OR
+
+If you are linking them inside head section then ensure that u use - 
+
+**The Document Ready Event**
+This is to prevent any jQuery code from running before the document is finished loading (is ready).
+
+    $(document).ready(function(){
+        $h1.css("color"."red"); 
+    })
+
+---
+
+### WHAT'S INSIDE CDN LINK ?? 
+Simply Js code without breaks and spaces : minified version to fast
+
+
+
+## Jquery
+
+In JS No difference between selecting one and selecting many
+
+    document.querySelector("h1"); 
+    document.querySelectorAll("h1");
+    is same as 
+    $("h1")
+
+## Syntax
+
+    console.log($("h1").css("color")); -> will return color
+    console.log($("h1").css("font-size","5px")); -> will set font-size
+
+1 value gives output &
+2 values set property 
+
+    To add a class of css to an element
+        $("h1").addClass("big-title");
+
+    To remove a class of css to an element
+        $("h1").removeClass("big-title");
+
+    To check a class of an element
+        $("h1").hasClass("big-title");
+
+    To change text of an element
+        $("h1").text("bye");
+
+    To change inner html of an element
+        $("h1").html("<i>bye</i>"); //this will not consider tags as strings
+
+    To change the attributes of an element
+        $("img").attr("src","abc/ass");
+
+---
+
+    To add an event listner to an element
+        $("h1").click(function() {
+            $("h1").css("color","yellow");
+        });
+
+    To detect keys inside text box
+        $("input").keypress(function(event){
+            console.log(event.key);
+        })
+
+    Genric
+        $("h1").on("click",function(event){
+            $("h1").css("color","yellow");
+        })
+
+
+Adding / Removing elements
+
+    $("h1").before("<button>New</button>") This will add button without changing html code
+    $("h1").after("<button>New</button>") 
+    $("h1").prepend("<button>New</button>") This will add element inside h1 tag
+    $("h1").append("<button>New</button>") 
+
+
+    $("button").on("click",function(){
+        $("h1").fade(); // can be slideUp, fadeIn, fadeOut, animate  etc
+    })
+ 

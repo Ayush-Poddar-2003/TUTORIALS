@@ -1,16 +1,16 @@
-# 191
+191
 Startups needs tech employees first
 
 What is Backend ?
 Server + logic + database
 
-# 192
+192
 Front end : HTML CSS JS , Frameworks like react angular which acts like waiter in a restraunt
 Backend : JS JAVA PHP C# RUBY PYTHON , Frameworks: nodejs flask django
 
 ---
 
-# 193 Node.js
+# <center>193 Node.js
 A Framework for js imagine it as a mayonise, readymade
 It let us use Js to make backend
 FAANG uses NodeJs, NASA too

@@ -226,26 +226,28 @@ HouseKeeper1.move();
 # 146 Call Back Function
 Function passed as a parameter for Higher order functions
 
+---------------------------------------------------
 
-# 150 JQuery
+# <center>150 JQuery
 
-The jQuery library is a single JavaScript file, and you reference it with the HTML < script > tag
+The jQuery library is a single JavaScript file, and you reference it with the HTML script tag
 
 Several ways to import jQuery on your web site.
-- Download the jQuery library from jQuery.com
-- Include jQuery from a CDN CONTENT DELIVERY NETWORKS, like Google
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+Download or Include jQuery 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+    </script>
 
 ---
 
-# 151 
-
 NOTE : You should always link the jQuery library before javascript to ensure complete importing
 
-This can be done either linking both just before body close element and simply code
-    $("h1").css("color","blue");
+This can be done either linking both just before body close element 
+
 OR
-if you are linking them inside head section then ensure that u use - 
+
+If you are linking them inside head section then ensure that u use - 
 The Document Ready Event
 This is to prevent any jQuery code from running before the document is finished loading (is ready).
 
