@@ -1,0 +1,18 @@
+# <CENTER> NODE JS
+-  An Open source and cross platform js runtime environment
+- Runs in single process without creating a new thread 
+- Makes Js run on both client and server
+- Fast Performance
+- Lightweight
+
+## Browsers VS Nodejs
+- Browsers have access to DOM, Web API
+- Nodejs has access to file system, OS
+
+
+## Setup
+    node -v to check version
+
+npm also gets installed with nodejs to manage dependancies
+
+    npm -v to check version
