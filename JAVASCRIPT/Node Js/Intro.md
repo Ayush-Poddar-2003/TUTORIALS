@@ -164,6 +164,8 @@ documentation: https://www.npmjs.com/package/superheroes
 ```js 
 "type": "module";
 ```
+    npm init -y
+
 ```js
 import superheroes from 'superheroes';
 const name = superheroes.random();
