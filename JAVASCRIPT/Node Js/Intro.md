@@ -48,7 +48,8 @@ Starting tool set, Similar like native games that come with windows
 Documentation : https://nodejs.org/docs/latest-v18.x/api/
 
 ## File System
-Documentation https://nodejs.org/docs/latest-v18.x/api/fs.html, We will be using cjs
+Documentation https://nodejs.org/docs/latest-v18.x/api/fs.html, 
+We will be using **cjs** i.e. common javascript that uses "require( )" keyword
 
 ```javascript
 // 1. Select module by writing this inside Js file
@@ -86,36 +87,88 @@ fs.readFile("./message.txt", "utf8", (err, data) => {
     console.log(data);
 });
 ```
+<br><br><br>
 
-# 198 NPM
-pre bundled code 
-comes pre installed wirh node
+# <center>NPM
 
-npm init => to initialize it
-after which a json file is created
+Community tool library
+Comes pre bundled with node
 
-to install any npm package use 
-    npm install <something>
+    1. Go to directory in terminal
 
-this will add a folder of that package with pre build files
+    2. npm init
+    after which a json file is created in the directory
 
-# ESM
-1. cjs need require keyword
+then it will ask bunch of questions
 
-    // syntax from mdn
-    var generateName = require("sillyname");
-    var sillyName = generateName();
-    console.log(`My name is ${sillyName}.`);
+    // npm install <something>
+    to install any npm package 
 
-2.  esm uses import keyword
+packages : https://www.npmjs.com/
 
-    import generateName from "sillyname";
-    var sillyName = generateName();
-    console.log(`My name is ${sillyName}.`);
+for eg
 
+### 1. Sillyname
+documentation: https://www.npmjs.com/package/sillyname
+
+    // Write in terminal
+    npm i sillyname
+    
+    // now if u check package.json u will see package name in dependancies
+    // also there will be a folder named node modules which consist of sillyname
+
+Now code these in your js file
+
+```js
+var generateName = require('sillyname');
+var sillyName = generateName();
+
+console.log(`My name is ${sillyName}`)
+```
+
+Now in terminal run node 
+
+    node filename
+
+
+
+## <center>ESM
+
+As cjs needs "require( )" keyword, esm uses import keyword as a standardized way of using Javascript to be consistent on the frontend and backend and controls bts
+
+To be able to use esm we need to go to package.json and below main add
+
+```js 
+"type": "module";
+```
+
+so now istead of
+
+```js
+var generateName = require('sillyname');
+var sillyName = generateName();
+console.log(`My name is ${sillyName}`)
+
+// we can write
+import generateName from "sillyName";
+var sillyName = generateName();
+console.log(`My name is ${sillyName}`)
+```
+<br>
+
+### 3. Superheroes
+documentation: https://www.npmjs.com/package/superheroes
+
+    npm i superheroes
+
+```js 
+"type": "module";
+```
+```js
 import superheroes from 'superheroes';
-var name = superheroes.random();
+const name = superheroes.random();
 console.log(`My name is ${name}.`);
+```
 
 ---
 
