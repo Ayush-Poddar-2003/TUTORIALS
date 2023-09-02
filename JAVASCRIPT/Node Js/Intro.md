@@ -174,7 +174,5 @@ console.log(`My name is ${name}.`);
 
 ---
 
-# 199 QR CODE  
+## QR CODE  
 
-
---------------------------------------
