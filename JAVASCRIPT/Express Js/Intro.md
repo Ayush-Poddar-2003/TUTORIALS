@@ -49,7 +49,7 @@ Automatic Screw Driver as a Expressjs
         node index.js 
 
 ---
-
+### Note -
 You can check all the request to computer by typing
 
     netstat -ano | fintstr "LISTENING"
@@ -68,6 +68,10 @@ you are sending
 PATCH - Replace/update with only  particular functionality
 
 DELETE - Request to delete something
+
+Overall  HTTP helps client computers to communicate with server computers
+
+---
 
 ```js
 // To target home page
@@ -97,3 +101,33 @@ install it using
 
     npm i -g nodemon 
     //-g to use it permanently not to reinstall
+
+---
+
+## HTTP Responses Status codes
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+    100 - 199 : Information Response
+    200 - 299 : Sucessfull response
+    300 - 399 : Redirection
+    400 - 499 : Client Error
+    500 - 599 : Server Error
+
+## Post
+Request usually made from some sort of html form
+
+## Postman
+When we don't want a front end to get your code tested
+
+--- 
+
+When you download node projects from internet it won't come with actual node modules coz of lot of dependancies and large size rather
+
+    npm install //this will download all modules
+
+Usage of Postman
+
+---
+
+# Middlewares
