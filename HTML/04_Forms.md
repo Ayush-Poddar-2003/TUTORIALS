@@ -1,82 +1,81 @@
 # The form Element
 An HTML form is a convenient way to send data to a database hosted in a server.
 
-It is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
-
-
-
     <input type="text">
 <input type="text"><br>
 
+<br>
 
     <input type="radio">
 <input type="radio">
 
+<br>
+
+
     <input type="checkbox">
 <input type="checkbox">
 
-    <input type="button">
-<input type="button">
+<br>
 
----
-A submit button is used to send the data in a form. The submit type of input adds a button to the form.
+    <input type="button" value="okay">
+<input type="button" value="okay">
 
+<br>
+<br>
 
     <input type="submit">
 <input type="submit"><br>
 
+A submit button is used to send the data in a form. The submit type of input adds a button to the form.
 
 <br>
 
----
 
 ## The label-for Element
 
-It is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+It is useful for screen-reader users
 
-The **for attribute of the label tag should be equal to the id attribute** of the input element to bind them together.
+**for** attribute of the label tag should be equal to the **id attribute** of the input element to bind them together.
 
-    <input type="radio" id="abc">
-    <label for="abc">HTML</label><br>
+```html
+<input type="radio" id="abc">
+<label for="abc">HTML</label>
+```
 
 <input type="radio" id="html" name="fav" value="HTML">
 <label for="html">HTML</label><br>
 <br>
 
-When labels and form fields are correctly connected
-hitting the label selects the form field
-<br><br>
 
----
-## ATTRIBUTES -
+## <center>ATTRIBUTES -
 
-<br>
+
 
 ### 1. Name 
-The name attribute is used to reference the data after submitting the form. 
 
 Only form elements with a name attribute will have their values passed to the database when submitting a form.
 
-    <form>
-        <input type="text" name="email"> 
-        <input type="text" name="city">
-        <input type="submit">
-    </form>
-
+```html
+<form>
+    <input type="text" name="email"> 
+    <input type="text" name="city">
+    <input type="submit">
+</form>
+```
+<br>
 
 ### 2. Value
 The value attribute defines the value that is submitted when the input is selected.
 
-    <form>
-        <input type="radio" id="r1" name="pay" value="cash">
-        <label for="r1">Cash</label>
-
-        <input type="radio" id="r2" name="pay" value="card">
-        <label for="r2">Card</label>
-    </form>
-
+```html
+<form>
+    <input type="radio" id="r1" name="pay" value="cash">
+    <label for="r1"> Cash </label>
+</form>
+```
 Names and values are needed to correctly store information in the database. The HTML code needs to include where and what to put in the database.
 
+<br>
 
 ### 2. Action 
 The action attribute defines the action to be performed when the form is submitted.
