@@ -1,10 +1,11 @@
-# EXPRESS
+# EXPRESS  Js
 
-Frameworks Rankings :-
-1. Node Js
-2. React Js
-3. JQuery
-4. Express
+Frameworks Rankings -
+
+    1. Node Js
+    2. React Js
+    3. JQuery
+    4. Express
 
 Nodejs + Express = Poweful Backend
 
@@ -18,33 +19,31 @@ Automatic Screw Driver as a Expressjs
 
 ## Creating an Express Server
 
-1. Create Directory
+1. Create Folder and a Js File 
 
         mkdir "3.1 Express Server"
-2. Create index.js file
-        
         touch index.js
-3. Initialise NPM
+2. Initialise NPM
 
         npm init -y
-4. Install the Express Package
+3. Install the Express Package
 
         npm i express
 
     ```js
     "type": "module", //in package.json
     ```
-5. Write server application in index.js
+4. Write server application in index.js
     ```js
+    // From Documentation 
     import express from "express";
     const app = express();
-    const port = 3000
 
-    app.listen(port, () =>{
-        console.log(`Server running on port ${port}`)
+    app.get('/', function(req,res){
+        res.send("Hello World");
     })
     ```
-6. Start Server
+5. Start Server
 
         node index.js 
 
