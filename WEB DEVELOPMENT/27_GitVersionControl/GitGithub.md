@@ -1,5 +1,5 @@
 ## What is Git?
-Git is a popular version control system. It was created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
+Popular version control system, created by Linus Torvalds in 2005, and has been maintained by Junio Hamano since then.
 
 
 ## Working with Git
@@ -7,7 +7,7 @@ Git is a popular version control system. It was created by Linus Torvalds in 200
 - Git now creates a hidden folder to keep track of changes in that folder.
 When a file is changed, added or deleted, it is considered modified.
 - You select the modified files you want to Stage.
-- The Staged files are Committed, which prompts Git to store a permanent snapshot of the files.
+- The Staged files are Committed, which tells Git to store a permanent snapshot of the files.
 - Git allows you to see the full history of every commit.
 - You can revert back to any previous commit.
 - Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
@@ -79,3 +79,24 @@ Not Recommended
 To view history of all commits use
 
     git log
+
+**branch** : A new/separate version of the main repository.
+
+    git branch <branchname>
+
+To check branch
+
+    git branch
+
+To move from the current branch, to specified branch
+
+    git checkout <branchname>
+
+To merge branches first go to master branch then
+
+    git checkout master
+    git merge <branch name which to be merged>
+
+To delete a branch
+
+    git branch -d <branchname>
