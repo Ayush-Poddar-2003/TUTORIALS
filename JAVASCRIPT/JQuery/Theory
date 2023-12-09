@@ -13,6 +13,7 @@ NOTE : You should always link the jQuery library before javascript to ensure com
 
 OR
 
+
 If you are linking them inside head section then ensure that u use - 
 
 **The Document Ready Event**
